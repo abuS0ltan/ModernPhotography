@@ -1,0 +1,194 @@
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+@media (max-width: 750px){ 
+    .container{
+        width: 90%;
+    }
+    .header{
+        background-position: -260px 0px;
+        z-index: -10;
+        padding-bottom: 20px;
+    }
+    /* start navbar */
+    .navbar{
+        background-color: #fff;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        position: static;
+    }
+    .nav-list .list-item .fa-bars{
+        display: inline-block;
+    }
+.logo .dark{
+    display: block;
+}
+.logo .light{
+    display: none;
+}
+.logo img{
+    margin-top: 0px;
+}
+.nav-list{
+    margin-top: 0px;
+}
+.nav-list .list-item{
+    display: none;
+}
+.nav-list .icon{
+    display: inline-block;
+    float: right;
+}
+.nav-list .list-item i{
+    font-size: 30px;
+    color: rgb(104, 104, 104);
+    padding-top: 5px;
+}
+/* end navbar */
+/* start header-content */
+.header-Content{
+    z-index: 9;
+}
+.header-Content .main-titel{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.header-description{
+    font-size: 17px;
+    line-height: 30px;
+    width: 95%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.right-button,.left-button{
+    z-index: -9;
+}
+.portfolio a{
+    font-size: 15px;
+}
+/* end header */
+/* start about */
+.about-item{
+    width: 100%;
+    float: none;
+    padding: 0 0;
+}
+.view::after{
+    margin-left: 5px;
+}
+.view:hover::after{
+    margin-left: 12px;
+}
+/* end about */
+.left-footer{
+    text-align: center;
+    width: 100%;
+    float: left;
+    color: rgb(119, 119, 119);
+}
+.right-footer{
+    margin-right: 100px;
+    width: 79%;
+}
+ } 
+ @media (min-width: 750px) and (max-width: 1000px) { 
+    .container{
+        width: 95%;
+    }
+       /* start navbar */
+       .navbar{
+        background-color: #fff;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        position: static;
+    }
+    .nav-list .list-item .fa-bars{
+        display: inline-block;
+    }
+.logo .dark{
+    display: block;
+}
+.logo .light{
+    display: none;
+}
+.logo img{
+    margin-top: 0px;
+}
+.nav-list{
+    margin-top: 0px;
+}
+.nav-list .list-item{
+    display: none;
+}
+.nav-list .icon{
+    display: inline-block;
+    float: right;
+}
+.nav-list .list-item i{
+    font-size: 30px;
+    color: rgb(104, 104, 104);
+    padding-top: 5px;
+}
+/* end navbar */
+.header-description{
+    width: 95%;
+}
+/* start about */
+
+.about-item{
+    width: 28%;
+    padding: 0 15px;
+    
+}
+.view::after{
+    margin-left: 5px;
+}
+.view:hover::after{
+    margin-left: 12px;
+}
+.footer .container{
+    width: 80%;
+}
+  }
+  @media (min-width:1000px) and (max-width: 1170px) { 
+    .container{
+        width: 85%;
+    }
+    .nav-list{
+        float: left;
+        width: 50%;
+        margin-top: 30px;
+    }
+    .nav-logo{
+        float: left;
+        width: 50%;
+    }
+    .about-item{
+        width: 28%;
+        padding: 0 15px;
+    }
+    .view::after{
+        margin-left: 5px;
+    }
+    .view:hover::after{
+        margin-left: 12px;
+    }
+  }
+  @media (min-width:1170px) and (max-width: 1520px){
+    .container{
+        width: 90%;
+    }
+    .about-item{
+        width: 30%;
+        padding: 0 15px;
+    }
+  }
+
